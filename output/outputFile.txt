@@ -1,0 +1,3 @@
+Book Name: Learning JavaScript Design Patterns  
+Book Author: Addy Osmani 
+Publisher: O'Reilly Media 
