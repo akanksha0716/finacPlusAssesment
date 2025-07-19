@@ -78,7 +78,7 @@ test("UI tests", async ({ page }) => {
     .textContent();
   fs.writeFileSync(filePath, "", "utf8");
   fs.writeFileSync(filePath, `Book Name: ${bookName!} \n`, "utf8");
-  //get book author //div[text()='Title']/../../../..
+  //get book author
   const bookAuthor = await page
     .locator("div")
     .locator(".rt-tr-group")
